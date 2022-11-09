@@ -18,7 +18,7 @@ export function SignIn() {
 				title="Entrar com o Google" 
 				leftIcon={<Icon as={Fontisto} name="google" color="white" size="md" />}
 				type="SECONDARY"
-				mt={12}
+		 		mt={12}
 				onPress={signIn}
 				isLoading={isUserLoading}
 				_loading={{
